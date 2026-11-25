@@ -316,7 +316,7 @@ td a:hover{text-decoration:underline}
 <div class="step">
   <span class="ic">💾</span><div class="num">2</div>
   <h3>Stock firmware</h3>
-  <p>Check the version in the stock admin panel. 6101 supports all firmwares; 6j01 requires R3.2 or older; 6j11 requires R3.2.6 or older for software-only flashing.</p>
+  <p>Check the version in the stock admin panel. 6101 requires R3.2.6 or older for software-only flashing; 6j01 requires R3.2.6 or older for software-only flashing; 6j11 requires R3.2.6 or older for software-only flashing.</p>
 </div>
 <div class="step">
   <span class="ic">🔓</span><div class="num">3</div>
@@ -349,7 +349,7 @@ td a:hover{text-decoration:underline}
 <tr><th class="r"></th><th class="fam c1">6101</th><th class="fam c2">6j01</th><th class="fam c3">6j11</th></tr>
 <tr><th class="r">Supported stock firmware</th>
 <td><span class="fw">ALL</span><small>Supports R3.2.6 or older</small></td>
-<td><span class="fw">R3.2 or older</span><small>Very few routers support up to R3.2.6</small></td>
+<td><span class="fw">R3.2.6 or older</span><small>All routers support up to R3.2.6</small></td>
 <td><span class="fw">R3.2.6 or older</span><small>All routers support up to R3.2.6</small></td></tr>
 <tr><th class="r">Models included</th>
 <td><div class="chips"><span class="chip t1">6101</span></div></td>
@@ -359,9 +359,13 @@ td a:hover{text-decoration:underline}
 <td><small><a href="https://drive.google.com/drive/folders/1gpFZ-eFGfzEkPTUneGogFt7m4KQhDc-J" target="_blank" rel="noopener noreferrer">Download 6101 Firmware</a></small></td>
 <td><small><a href="https://drive.google.com/drive/folders/1Prx2c3PCS-ds-0OpgL-tWOkrtK-E8RAY" target="_blank" rel="noopener noreferrer">Download 6j01 Firmware</a></small></td>
 <td><small><a href="https://drive.google.com/drive/folders/1aQ1dSXbbUmh2F57AGMaHOLlTmLBcLIg4" target="_blank" rel="noopener noreferrer">Download 6j11 Firmware</a></small></td></tr>
-<tr><th class="r">Commands Link</th>
+<tr><th class="r">SSH Commands Link</th>
+<td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/6101_via_ssh.md" target="_blank" rel="noopener noreferrer">6101 SSH</a></small></td>
+<td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j01_via_ssh.md" target="_blank" rel="noopener noreferrer">6j01 SSH</a></small></td>
+<td><small><a href="https://youtu.be/7xkd3qDdVFA" target="_blank" rel="noopener noreferrer">6j11 SSH Video</a></small></td></tr>
+<tr><th class="r">UART Commands Link</th>
 <td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/6101_commands.md" target="_blank" rel="noopener noreferrer">6101 UART</a></small></td>
-<td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/README.md" target="_blank" rel="noopener noreferrer">6101/6j01 SSH</a></small></td>
+<td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/6101_commands.md" target="_blank" rel="noopener noreferrer">6101/6j01 SSH</a></small></td>
 <td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md" target="_blank" rel="noopener noreferrer">6j11 UART</a></small></td></tr>
 <tr><th class="r">UART Pinouts (not required for SSH method)</th>
 <td><small><a href="https://github.com/the-diy-daddy/6j01_6j11/blob/main/uart_pins/uart_read.md" target="_blank" rel="noopener noreferrer">6101</a></small></td>
@@ -388,7 +392,13 @@ td a:hover{text-decoration:underline}
 <article class="card" style="--k:var(--a)">
 <h3><em>A</em> · 6101 process</h3>
 <div class="flow">
-  <div class="n">🔑 Attempt password trick<br><a href="https://youtu.be/xy8j6yw98fk?t=770" target="_blank" rel="noopener noreferrer" class="vid-link">▶ Watch Guide</a></div>
+  <div class="n">🔑 Firmware R2.0.19 - R3.2, Attempt password trick<br><a href="https://youtu.be/xy8j6yw98fk?t=770" target="_blank" rel="noopener noreferrer" class="vid-link">▶ Watch Guide</a></div>
+  <span class="ar">Success (you got SSH Access)</span>
+  <div class="n fin">Flash using SSH<br><a href="https://youtu.be/S8LuuL7tme4?t=1080" target="_blank" rel="noopener noreferrer" class="vid-link">▶ Watch Guide</a></div>
+</div>
+<div class="flow fb">
+  <span class="lab">Firmware R2.0.19 - R3.2.6, Attempt Python Script</span>
+  <div class="n warn">Attempt breeze.sh method<br><a href="https://youtu.be/S8LuuL7tme4?t=419" target="_blank" rel="noopener noreferrer" class="vid-link">▶ Watch Guide</a></div>
   <span class="ar">Success (you got SSH Access)</span>
   <div class="n fin">Flash using SSH<br><a href="https://youtu.be/S8LuuL7tme4?t=1080" target="_blank" rel="noopener noreferrer" class="vid-link">▶ Watch Guide</a></div>
 </div>
